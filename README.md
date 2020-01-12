@@ -1,4 +1,24 @@
-# Android PubSub with WebSockets Sample
+# NOTE Forked from shend5 on GitHub, original README below
+This has been heavily modified and requires you to add a new file with AWS creds: `src/nz/co/landcareresearch/awsiotmonitor/AWSConnStrings.java` with the following contents:
+
+```java
+package nz.co.landcareresearch.awsiotmonitor;
+
+import com.amazonaws.regions.Regions;
+
+public final class AWSConnStrings {
+    public static final String CUSTOMER_SPECIFIC_IOT_ENDPOINT = "XXXXXXXXXX.iot.<region>.amazonaws.com";
+
+    public static final String COGNITO_POOL_ID = "<region>:xxxxxxxx-xxxx-xxxxa-xxxx-xxxxxxxxxxxx";
+
+    public static final Regions MY_REGION = Regions.<region>;
+}
+```
+
+To start, open Android Studio then create New project From Version Control and paste the 'clone' link from this repo. Create the file mentioned above, then build the project. All dependencies should come down OK (first build might take a while)
+
+
+# ORIGINAL README: Android PubSub with WebSockets Sample
 
 This sample demonstrates use of the AWS IoT APIs to publish to and subscribe from MQTT topics with a WebSocket. Authentication of the WebSocket connection is done with Amazon Cognito. Once a connection to the AWS IoT platform has been established, the application presents a simple UI to publish and subscribe over MQTT.
 
