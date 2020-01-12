@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-android-sdk-core:2.13.7@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.13.7/c91e3750886d68ed0e4064ffca60095dc6b5fae2/aws-android-sdk-core-2.13.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.13.7/43935363ae7686e632bbe6bc8158612414ab54f5/aws-android-sdk-core-2.13.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
